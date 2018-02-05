@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.source           = { :git => 'https://github.com/NazarGrorobets/testcocapodsRepo.git', :commit => "a3311e6ba787e99ad1e14fcd8b00077ea2102391" }
   s.platform     = :ios, "10.0"
-  s.source_files = 'testcocapodsRepo/*'
+  s.source_files = 'testcocapodsRepo/SMRequest.swift'
   s.author       = { "Nazar Gorobets" => "n.gorobets@spheremall.com" }
 end
